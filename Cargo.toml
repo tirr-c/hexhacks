@@ -1,0 +1,20 @@
+[package]
+name = "hexhacks"
+version = "0.1.0"
+authors = ["Wonwoo Choi <chwo9843@gmail.com>"]
+homepage = "https://github.com/tirr-c/hexhacks"
+repository = "https://github.com/tirr-c/hexhacks.git"
+license = "GPL-3.0-or-later"
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.41"
+atty = "0.2.14"
+crossterm = "0.20.0"
+human-panic = "1.0.3"
+parking_lot = "0.11.1"
+structopt = "0.3.22"
+
+[[bin]]
+name = "hh"
+path = "src/main.rs"
